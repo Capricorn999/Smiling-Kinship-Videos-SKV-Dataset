@@ -21,7 +21,7 @@
 | Minimum source-video resolution | 720p |
 | Frames per video | 733 on average; 60 minimum |
 
-The videos were collected from publicly accessible interviews, talk shows, documentaries, and related online footage. SKV controls for smiling expressions but intentionally retains natural variation in pose, illumination, occlusion, ethnicity, and recording conditions. Faces were detected, tracked, aligned, and cropped with OpenFace to preserve temporal consistency while reducing background bias.
+The videos were collected from publicly accessible interviews, talk shows, documentaries, and related online footage. SKV controls for smiling expressions but retains natural variation in pose, illumination, occlusion, ethnicity, and recording conditions for generalizability. Faces were detected, tracked, aligned, and cropped with OpenFace to preserve temporal consistency while reducing background bias.
 
 ![Examples from the four SKV relationship categories](assets/skv_samples.png)
 
@@ -83,7 +83,6 @@ DynamicKin improves average accuracy by **2.71 percentage points** over the stro
 
 The dataset is available from [Google Drive](https://drive.google.com/file/d/1SCw2lR6ncO760ZGS-SILnQif-4TlF-En/view?usp=sharing). SKV is intended for academic research in kinship verification, facial dynamics, temporal representation learning, and related areas. Users are responsible for following the terms included with the download and for using the data responsibly.
 
-SKV currently focuses on smiling expressions and four first-degree parent–child relationships. Results should therefore not be interpreted as evidence of performance on other expressions, relationship types, or populations.
 
 ## Citation
 
@@ -100,4 +99,4 @@ If SKV or DynamicKin supports your research, please cite the accompanying paper:
 
 ## Contact
 
-For questions about the dataset or paper, contact the authors at `mc45158@um.edu.mo` or `bobzhang@um.edu.mo`.
+For questions about the dataset or paper, contact the authors at `mc45158@um.edu.mo`.
